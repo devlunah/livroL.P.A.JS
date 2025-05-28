@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // entrada de dados:
+            /* O método prompt() lê as varíaveis como strings (textos). Por exemplo, ao colocar:
+            var num1 = prompt("1° Número: ")
+            var num2 = prompt("2° Número: ")
+
+            O programa entende num1 e num2 como STRINGS, então se eu insiro os valores 1 e 2, respectivamente, 
+            ao fazer a soma o programa dará como resultado: 12
+            */
+
+            // O método Number() serve para converter essas string texto em número. 
+            // Outros métodos que tem a mesma função são: parseInt() e parseDouble()
+
+        var num1 = Number(prompt("1° Número: "));
+        var num2 = Number(prompt("2° Número: "));
+
+        // processamento de dados:
+
+        var soma = num1 + num2;
+
+        // saída de dados:
+
+        alert(`Soma é: ${soma}`);
+
+    </script>
+</body>
+</html>
